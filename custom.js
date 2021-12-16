@@ -76,9 +76,18 @@ let value = input.value;
  
  removedBtn.addEventListener('click',function (event) {
      event.preventDefault()
-     
-      grocery.classList.add('aaa')
+   // this.parentNode.childNodes[8].remove();
+    //  grocery.classList.add('aaa')
  })
  
+
+ 
+ delBtn.addEventListener('click',function (event) {
+  event.preventDefault()
+ this.parentNode.remove();
+ //  grocery.classList.add('aaa')
+})
+
+
 
 
