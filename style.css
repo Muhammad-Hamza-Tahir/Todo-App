@@ -27,6 +27,7 @@ input{
     width: 450px;
     background-color: pink;
     text-align: center;
+    visibility: hidden;
 }
 .container{
     width: 400px;
@@ -34,6 +35,10 @@ input{
     display: flex;
     align-items: center;
     justify-content:space-between;
+    visibility: hidden;
+}
+.show{
+       visibility: visible;
 }
 .container:hover{
     background-color: whitesmoke;
@@ -59,6 +64,10 @@ input{
     border: none;
     background-color: white;
     cursor: pointer;
+    visibility: hidden;
+}
+.show-item{
+    visibility: visible;
 }
 .submit1{
     cursor: pointer;
@@ -70,4 +79,16 @@ input{
 .submit1:hover{
     background-color: white;
     color: blueviolet;
+}
+
+
+
+.abc{
+    visibility: visible;
+}
+.xyz{
+  visibility: hidden;
+}
+.aaa{
+    display: none;
 }
