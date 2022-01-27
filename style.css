@@ -80,7 +80,16 @@ input{
     background-color: white;
     color: blueviolet;
 }
-
+#completeTask{
+    color: green;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+}
+.task1{
+    text-decoration-line: line-through;
+    margin-left: 20px;
+}
 
 
 .abc{
@@ -90,5 +99,8 @@ input{
   visibility: hidden;
 }
 .aaa{
+    display: none;
+}
+.show12{
     display: none;
 }
